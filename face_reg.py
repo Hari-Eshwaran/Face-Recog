@@ -1,8 +1,8 @@
 import streamlit as st
 import numpy as np
-from keras.models import Sequential, Model
-from keras.layers import Dense, Flatten, Reshape, Embedding, SimpleRNN, LSTM, Input, LeakyReLU, Conv2D, MaxPooling2D, Conv2DTranspose
-from keras.utils import to_categorical
+from tensorflow.keras.models import Sequential, Model
+from tensorflow.keras.layers import Dense, Flatten, Reshape, Embedding, SimpleRNN, LSTM, Input, LeakyReLU, Conv2D, MaxPooling2D, Conv2DTranspose
+from tensorflow.keras.utils import to_categorical
 from keras.datasets import mnist, imdb
 from keras.preprocessing.sequence import pad_sequences
 from sklearn.datasets import fetch_lfw_people
